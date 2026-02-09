@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جاينكم - خدمة توصيل وتأجير سيارات سودانية</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/logo-circle.png" type="image/png">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="images/logo16-9.png" alt="جاينكم">
+            </a>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="#safety">الأمان</a></li>
+                    <li><a href="#about">عن جاينكم</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#download" class="btn btn-outline">حمل التطبيق</a>
+                <button class="mobile-toggle" aria-label="القائمة">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <button class="close-menu"><i class="fas fa-times"></i></button>
+        <ul class="mobile-nav-list">
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#safety">الأمان</a></li>
+            <li><a href="#about">عن جاينكم</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+            <li><a href="#download" class="btn btn-primary">حمل التطبيق</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">يا زول.. <span class="highlight">جاينكم</span> وين ما كنتوا!</h1>
+                <p class="hero-subtitle">تطبيق سوداني 100% للمشاوير، التوصيل، وتأجير السيارات. سريعين، آمنين، وسعرنا
+                    حنين.</p>
+
+                <div class="download-buttons">
+                    <a href="#" class="store-btn">
+                        <i class="fab fa-google-play"></i>
+                        <div class="store-btn-text">
+                            <span>حمله من</span>
+                            <strong>Google Play</strong>
+                        </div>
+                    </a>
+                    <a href="#" class="store-btn">
+                        <i class="fab fa-apple"></i>
+                        <div class="store-btn-text">
+                            <span>حمله من</span>
+                            <strong>App Store</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper">
+                <div class="hero-bg-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+                <img src="images/hero-image-guy.png" alt="سائق جاينكم" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">خدماتنا السمحة</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-car-side"></i>
+                    </div>
+                    <h3>مشاوير (City Rides)</h3>
+                    <p>أطلب رحلتك ونحن بنوصلك. عربات نظيفة ومكيفة، وسواقين ولاد بلد.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <h3>توصيل (Delivery)</h3>
+                    <p>عايز ترسل غرض؟ ولا تطلب طلبية؟ ناسنا جاهزين يوصلوها ليك في أسرع وقت.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>تأجير سيارات (Rentals)</h3>
+                    <p>محتاج عربية لمدة طويلة؟ عندنا خيارات كتيرة بتناسبك وبسعر بريحك.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-truck-moving"></i>
+                    </div>
+                    <h3>نقل (Freight)</h3>
+                    <p>عفش بيتك أو بضاعة محلك، بننقلها ليك بأمان تام.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us / Sudanese Touch -->
+    <section class="features" id="safety">
+        <div class="container features-container">
+            <div class="features-text">
+                <h2 class="section-title">ليه تختار جاينكم؟</h2>
+                <ul class="features-list">
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <div>
+                            <strong>سعرنا حنين</strong>
+                            <p>ما بنزيد عليك، السعر بنتفق عليهو من البداية.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <strong>أمان وضمان</strong>
+                            <p>سائقينا ولاد حلال وتم فحصهم وتدريبهم كويس.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>سريعين زي البرق</strong>
+                            <p>ما بنخليك تنتظر كتير، أقرب واحد ليك بيجيك طوالي.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="features-image">
+                <div class="hero-bg-shapes features-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+                <img src="images/Box-giving.png" alt="ليه تختار جاينكم" class="features-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- App Download CTA -->
+    <section class="download-cta" id="download">
+        <div class="container">
+            <div class="cta-content">
+                <h2>نزل التطبيق وجربنا</h2>
+                <p>متوفر الآن على أندرويد وآيفون -> خلي "جاينكم" خيارك الأول.</p>
+                <div class="download-buttons center-btns">
+                    <a href="#" class="store-btn white-btn">
+                        <i class="fab fa-google-play"></i>
+                        <div class="store-btn-text">
+                            <span>حمله من</span>
+                            <strong>Google Play</strong>
+                        </div>
+                    </a>
+                    <a href="#" class="store-btn white-btn">
+                        <i class="fab fa-apple"></i>
+                        <div class="store-btn-text">
+                            <span>حمله من</span>
+                            <strong>App Store</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <img src="images/logo.png" alt="جاينكم" class="footer-logo">
+                <p>شركة سودانية رائدة في مجال النقل والتوصيل. هدفنا نسهل حياتكم ونربطكم ببعض.</p>
+            </div>
+            <div class="footer-col">
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#">من نحن</a></li>
+                    <li><a href="#">الشروط والأحكام</a></li>
+                    <li><a href="#">الخصوصية</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>تواصل معنا</h4>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 جاينكم. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
